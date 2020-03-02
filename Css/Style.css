@@ -1,0 +1,178 @@
+body{
+  background:#c0c0c0;
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0 auto;
+  background:#f2e8c9;
+}
+
+#header{
+position:relative;
+  height: 250px;
+  background-color: #C0C0C0;
+   margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+img{
+float: left;
+  margin: -40px 0 0 0;}
+  
+h1{
+  margin:0 0 10px 40px;
+  color:#464451;
+}
+.bg-fon{
+	box-shadow:inset 0px 0px 85px rgba(0,0,0,0.4);
+}
+.Glav{
+color:#464451;
+letter-spacing: -1pt;
+text-shadow: 1px 1px 0 #000, -1px -1px 0 #fff;
+}
+.nomer{
+  position:absolute;
+  top:5px;
+  left:550px;
+  font-size: 16px;
+  font-style:italic;
+  font-weight:bold;
+  color:black;
+  box-shadow: 1px 1px 0 #000, -1px -1px 0 #fff;
+}
+
+#sidebar{
+  background-color: #ffffff;
+  width: 180px;
+  padding: 10px;
+  float: right;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.marcer{
+  float: left;
+  margin: 5px 5px 0 0;
+}
+
+#content{
+  margin-bottom: 5px;
+  width: 676px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+
+#footer{
+  height:80px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0,0,0,0.5) 0px 1px 3px;
+}
+.clear{
+  clear: both;
+}
+  .wan1{
+  float:left;
+  margin:20px 0 0 20px;
+  font-size: 14px;
+}
+.wan2{
+  float:left;
+  margin:20px 0 0 60px;
+}
+.wan3{
+  float:left;
+ margin:20px 0 0 60px;
+}
+.lake {
+text-align: center;
+display: inline-block;
+overflow: hidden;
+position: relative;
+text-decoration: none;
+}
+.lake:before {
+display: block;
+background-color: rgb(0, 0, 0);
+content: "";
+height: 100%;
+opacity: 0;
+position: absolute;
+width: 100%;
+z-index: 2;
+}
+
+.lake:after {
+font-family: 'Lucida Console';
+color: white;
+content: attr(alt);
+display: block;
+font-size: 16px;
+opacity: 0;
+padding: 0 3%;
+position: absolute;
+text-transform: none;
+top: 50%;
+-webkit-transform-origin: 50% 0%;
+transform-origin: 50% 0%;
+-webkit-transform: scale(0) translateY(-50%);
+transform: scale(0) translateY(-50%);
+width: 94%;
+z-index: 3;
+}
+
+.lake img {
+border: none;
+display: block;
+z-index: 1;
+}
+
+.lake:after {
+-webkit-transition: all 350ms ease-in-out;
+transition: all 350ms ease-in-out;
+}
+
+.lake:hover:before {
+opacity: 0.6
+}
+
+.lake:hover:after {
+opacity: 1;
+-webkit-transform: scale(1) translateY(-50%);
+transform: scale(1) translateY(-50%);
+}
+
+.three {
+color: #524E49; /* Цвет текста в кнопке */
+background: #fdeaa8; /* Фоновый цвет */
+padding: 10px; /* Отступ текста от границ - определяет размер кнопки */
+font-size: 20px; /* Размер текста */
+border-radius: 5px; /* Закругление уголков */
+box-shadow: 0px 1px 3px; /* Тень */
+}
+.three:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999; 
+}
+
+.two {
+color: #524E49;
+background: #dbefff;
+padding: 10px;
+font-size: 20px;
+border-radius: 5px;
+box-shadow: 0px 1px 3px;
+}
+
+.two:hover {
+	cursor: pointer;
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
