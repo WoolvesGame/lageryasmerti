@@ -78,15 +78,15 @@ text-shadow: 1px 1px 0 #000, -1px -1px 0 #fff;
   .wan1{
   float:left;
   margin:20px 0 0 20px;
-  font-size: 14px;
+  font-size: 13px;
 }
 .wan2{
   float:left;
-  margin:20px 0 0 60px;
+  margin:20px 0 0 40px;
 }
 .wan3{
   float:left;
- margin:20px 0 0 60px;
+ margin:20px 0 0 40px;
 }
 .lake {
 text-align: center;
